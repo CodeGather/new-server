@@ -1,8 +1,8 @@
 name: SSH Forward Port To Public Server
-on:
-  workflow_dispatch:
-  schedule: 
-   - cron: '*/30 * * * *'
+#on:
+#  workflow_dispatch:
+#  schedule: 
+#   - cron: '*/30 * * * *'
 
 jobs:
   env:
